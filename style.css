@@ -17,9 +17,6 @@ a {
 p {
     font-size: 25px;
     font-family: Arial, sans-serif;
-}
-
-p {
     text-align: center;
 }
 
@@ -32,7 +29,7 @@ div img {
 
 div {
     display: inline-block;
-    width: 45%; /* Updated */
+    width: 45vw; /* Updated */
     margin: 5px;
     padding: 2px;
 }
@@ -40,7 +37,7 @@ div {
 /* Tablet View */
 @media only screen and (min-width: 772px) {
     div {
-        width: 45%; /* Updated */
+        width: 45vw; /* Updated */
     }
 
     div img {
@@ -60,6 +57,7 @@ div {
         max-height: none; /* Reverting back to original behavior */
     }
 }
+
 /* 
 main {
     border: 5px #000 solid;
